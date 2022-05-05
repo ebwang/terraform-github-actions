@@ -15,7 +15,7 @@ terraform {
     organization = "GITHUB-TFC-AWS"
 
     workspaces {
-      name = "default"
+      name = "api-test"
     }
   }
 }
