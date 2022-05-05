@@ -33,6 +33,7 @@ GITHUB inside your repository Settings -> Secrets -> Create Secret
 - First you need to fork this repository.
 - Login in terraform cloud (You can create an acconut for free use).
 - Create an Organization and a workspace.
+- Fill the information of backend environment in the main.tf.
 - Create in your workspace AWS_SECRET_ACCESS_KEY and AWS_ACCESS_KEY_ID variables.
 - Go to Organization Settings in the API_TOKEN section click create ORGANIZATION TOKEN and copy the token.
 - In Github in Settings -> Secrets -> Create Secret, recorde de API_TOKEN above with the name TF_API_TOKEN.
